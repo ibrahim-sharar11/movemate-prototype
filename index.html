@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MoveMate – On-Demand Movers Prototype</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="logo-mark">MM</div>
+      <div class="logo-text">
+        <h1>MoveMate</h1>
+        <p class="tagline">Book movers in minutes with transparent pricing.</p>
+      </div>
+      <button class="pill-button pill-secondary" id="btn-view-past-moves">Past Moves</button>
+    </header>
+
+    <main class="app-main">
+      <!-- Landing Screen -->
+      <section class="screen active" id="screen-landing">
+        <div class="screen-grid">
+          <div>
+            <h2>Stress-free local moves.</h2>
+            <p class="lead">
+              Describe your move, compare trusted movers, and track your truck in real time.
+              This prototype shows the core customer journey from booking to rating.
+            </p>
+            <ul class="bullet-list">
+              <li>Instant price estimate with clear breakdown</li>
+              <li>Recommended movers with ratings and reviews</li>
+              <li>Live status updates on moving day</li>
+            </ul>
+            <div class="button-row">
+              <button class="primary-button" id="btn-get-started">Get Started</button>
+              <button class="ghost-button" id="btn-quick-demo">Quick Demo</button>
+            </div>
+          </div>
+          <div class="mock-card">
+            <p class="mock-label">Next booking</p>
+            <h3>1 Bedroom Apartment</h3>
+            <p class="mock-detail">Downtown → Midtown · Tomorrow 9–11 AM</p>
+            <div class="price-chip">
+              <span class="price-main">$320–$380</span>
+              <span class="price-sub">Based on distance, time & complexity</span>
+            </div>
+            <div class="mover-row">
+              <div>
+                <p class="mover-name">Careful Movers Co.</p>
+                <p class="mover-meta">4.9 · 184 jobs</p>
+              </div>
+              <button class="pill-button">View</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 1: Move Details -->
+      <section class="screen" id="screen-move-details">
+        <header class="screen-header">
+          <div class="progress-indicator">
+            <div class="progress-dot completed"></div>
+            <div class="progress-line"></div>
+            <div class="progress-dot active"></div>
+            <div class="progress-line"></div>
+            <div class="progress-dot"></div>
+          </div>
+          <p class="step-label">Step 1 of 3</p>
+          <h2>Tell us about your move</h2>
+          <p class="hint">We use this information to estimate effort and match the right mover.</p>
+        </header>
+        <form id="form-move-details" class="form-grid">
+          <div class="form-field">
+            <label for="pickupAddress">Pickup address</label>
+            <input id="pickupAddress" name="pickupAddress" type="text" required placeholder="123 King St W, Toronto">
+          </div>
+          <div class="form-field">
+            <label for="dropoffAddress">Drop-off address</label>
+            <input id="dropoffAddress" name="dropoffAddress" type="text" required placeholder="456 Queen St E, Toronto">
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="moveDate">Move date</label>
+              <input id="moveDate" name="moveDate" type="date" required>
+            </div>
+            <div class="form-field">
+              <label for="timeWindow">Preferred time window</label>
+              <select id="timeWindow" name="timeWindow" required>
+                <option value="" disabled selected>Select a window</option>
+                <option value="8–10 AM">8–10 AM</option>
+                <option value="10–12 AM">10–12 AM</option>
+                <option value="12–2 PM">12–2 PM</option>
+                <option value="2–4 PM">2–4 PM</option>
+                <option value="4–6 PM">4–6 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="homeType">Home type</label>
+              <select id="homeType" name="homeType" required>
+                <option value="" disabled selected>Select home type</option>
+                <option value="Studio / Room">Studio / Room</option>
+                <option value="1 Bedroom">1 Bedroom</option>
+                <option value="2 Bedroom">2 Bedroom</option>
+                <option value="House / Townhome">House / Townhome</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="access">Access details</label>
+              <select id="access" name="access" required>
+                <option value="" disabled selected>Access details</option>
+                <option value="Elevator">Elevator</option>
+                <option value="Stairs – 1 flight">Stairs – 1 flight</option>
+                <option value="Stairs – 2+ flights">Stairs – 2+ flights</option>
+                <option value="Ground level / driveway">Ground level / driveway</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="notes">Special notes (optional)</label>
+            <textarea id="notes" name="notes" rows="3" placeholder="Fragile items, parking constraints, elevator booking…"></textarea>
+          </div>
+
+          <div class="screen-footer">
+            <button type="button" class="ghost-button" data-nav="landing">Back</button>
+            <button type="submit" class="primary-button">Continue to inventory</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Step 2: Inventory -->
+      <section class="screen" id="screen-inventory">
+        <header class="screen-header">
+          <div class="progress-indicator">
+            <div class="progress-dot completed"></div>
+            <div class="progress-line completed"></div>
+            <div class="progress-dot completed"></div>
+            <div class="progress-line active"></div>
+            <div class="progress-dot active"></div>
+          </div>
+          <p class="step-label">Step 2 of 3</p>
+          <h2>Roughly how much are you moving?</h2>
+          <p class="hint">A quick estimate is enough — movers just need a sense of volume.</p>
+        </header>
+        <form id="form-inventory" class="form-grid">
+          <div class="inventory-grid">
+            <div class="inventory-card">
+              <div class="inventory-header">
+                <h3>Bedroom</h3>
+                <p class="small">Bed, dresser, side tables…</p>
+              </div>
+              <div class="counter" data-field="bedroomCount">
+                <button type="button" class="counter-btn" data-action="dec">–</button>
+                <span class="counter-value">1</span>
+                <button type="button" class="counter-btn" data-action="inc">+</button>
+              </div>
+            </div>
+            <div class="inventory-card">
+              <div class="inventory-header">
+                <h3>Living room</h3>
+                <p class="small">Couch, TV stand, coffee table…</p>
+              </div>
+              <div class="counter" data-field="livingCount">
+                <button type="button" class="counter-btn" data-action="dec">–</button>
+                <span class="counter-value">1</span>
+                <button type="button" class="counter-btn" data-action="inc">+</button>
+              </div>
+            </div>
+            <div class="inventory-card">
+              <div class="inventory-header">
+                <h3>Boxes</h3>
+                <p class="small">Small & medium boxes</p>
+              </div>
+              <div class="counter" data-field="boxCount">
+                <button type="button" class="counter-btn" data-action="dec">–</button>
+                <span class="counter-value">8</span>
+                <button type="button" class="counter-btn" data-action="inc">+</button>
+              </div>
+            </div>
+            <div class="inventory-card">
+              <div class="inventory-header">
+                <h3>Heavy items</h3>
+                <p class="small">Piano, gym equipment, etc.</p>
+              </div>
+              <div class="counter" data-field="heavyCount">
+                <button type="button" class="counter-btn" data-action="dec">–</button>
+                <span class="counter-value">0</span>
+                <button type="button" class="counter-btn" data-action="inc">+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="fragileNotes">Fragile or special items</label>
+            <textarea id="fragileNotes" name="fragileNotes" rows="3" placeholder="E.g., glass desk, large mirror, plants…"></textarea>
+          </div>
+
+          <div class="screen-footer">
+            <button type="button" class="ghost-button" data-nav="move-details">Back</button>
+            <button type="submit" class="primary-button">See price estimate</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Step 3: Estimate & Movers -->
+      <section class="screen" id="screen-estimate">
+        <header class="screen-header">
+          <div class="progress-indicator">
+            <div class="progress-dot completed"></div>
+            <div class="progress-line completed"></div>
+            <div class="progress-dot completed"></div>
+            <div class="progress-line completed"></div>
+            <div class="progress-dot completed"></div>
+          </div>
+          <p class="step-label">Step 3 of 3</p>
+          <h2>Your estimate & recommended movers</h2>
+          <p class="hint">This estimate is based on distance, volume, access difficulty, and historical job data.</p>
+        </header>
+
+        <div class="estimate-layout">
+          <div class="estimate-card">
+            <p class="estimate-label">Estimated price range</p>
+            <p class="estimate-main" id="estimate-price">$320–$380</p>
+            <p class="estimate-sub" id="estimate-breakdown">Base fee $180 · Distance $90 · Time & complexity $60–$110</p>
+            <div class="estimate-subsection">
+              <p class="small strong">Why this estimate?</p>
+              <ul class="small-list" id="estimate-reasons">
+                <li>1 bedroom with living room and 8 boxes</li>
+                <li>Stairs – 1 flight at pickup</li>
+                <li>Average distance between locations in your city</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="movers-card">
+            <div class="movers-header">
+              <h3>Recommended movers</h3>
+              <select id="moverSort">
+                <option value="best">Best match</option>
+                <option value="price">Lowest price</option>
+                <option value="rating">Highest rating</option>
+              </select>
+            </div>
+            <div id="mover-list" class="mover-list">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-footer">
+          <button type="button" class="ghost-button" data-nav="inventory">Back</button>
+          <button type="button" class="primary-button" id="btn-continue-booking" disabled>Continue with selected mover</button>
+        </div>
+      </section>
+
+      <!-- Booking Summary / Confirmation -->
+      <section class="screen" id="screen-confirmation">
+        <header class="screen-header">
+          <h2>Review & confirm your booking</h2>
+          <p class="hint">Check that everything looks right before you commit.</p>
+        </header>
+
+        <div class="summary-layout">
+          <div class="summary-card">
+            <h3>Move summary</h3>
+            <dl class="summary-list" id="summary-move-details">
+              <!-- Filled by JS -->
+            </dl>
+          </div>
+          <div class="summary-card">
+            <h3>Selected mover</h3>
+            <div id="summary-mover" class="summary-mover">
+              <!-- Filled by JS -->
+            </div>
+            <div class="summary-price">
+              <p class="small strong">Estimated total</p>
+              <p class="estimate-main" id="summary-price-main">$0</p>
+              <p class="estimate-sub" id="summary-price-sub">No charges are real in this prototype.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-footer">
+          <button type="button" class="ghost-button" data-nav="estimate">Back</button>
+          <button type="button" class="primary-button" id="btn-confirm-booking">Confirm booking</button>
+        </div>
+      </section>
+
+      <!-- Tracking Screen -->
+      <section class="screen" id="screen-tracking">
+        <header class="screen-header">
+          <h2>Tracking your move</h2>
+          <p class="hint">This screen simulates real-time status updates and map tracking.</p>
+        </header>
+
+        <div class="tracking-layout">
+          <div class="tracking-map">
+            <div class="map-placeholder">
+              <div class="map-pin map-pin-pickup">Pickup</div>
+              <div class="map-pin map-pin-dropoff">Drop-off</div>
+              <div class="map-vehicle">🚚</div>
+            </div>
+            <p class="small">In a full implementation this area would show a live map with GPS tracking.</p>
+          </div>
+
+          <div class="tracking-side">
+            <div class="status-header">
+              <p class="small strong">Current status</p>
+              <p class="status-pill" id="tracking-status-pill">Scheduled</p>
+            </div>
+
+            <ol class="status-timeline" id="status-timeline">
+              <!-- Filled by JS -->
+            </ol>
+
+            <button class="pill-button pill-primary" id="btn-advance-status">
+              Advance status (demo control)
+            </button>
+
+            <div class="tracking-meta" id="tracking-meta">
+              <!-- Filled by JS -->
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-footer">
+          <button type="button" class="ghost-button" data-nav="confirmation">Back</button>
+          <button type="button" class="primary-button" id="btn-complete-move" disabled>Mark move as complete</button>
+        </div>
+      </section>
+
+      <!-- Rating Screen -->
+      <section class="screen" id="screen-rating">
+        <header class="screen-header">
+          <h2>How was your move?</h2>
+          <p class="hint">Your feedback helps keep movers accountable and improves recommendations.</p>
+        </header>
+
+        <div class="rating-card">
+          <h3 id="rating-mover-name">Mover name</h3>
+          <div class="star-row" id="rating-stars">
+            <!-- Stars filled by JS -->
+          </div>
+          <div class="form-field">
+            <label for="ratingComment">Comments (optional)</label>
+            <textarea id="ratingComment" rows="3" placeholder="Were they on time? Careful with your items? Any issues?"></textarea>
+          </div>
+          <button class="primary-button" id="btn-submit-rating">Submit rating</button>
+        </div>
+      </section>
+
+      <!-- Past Moves Screen -->
+      <section class="screen" id="screen-past-moves">
+        <header class="screen-header">
+          <h2>Past moves</h2>
+          <p class="hint">This list is simulated locally in your browser for demo purposes.</p>
+        </header>
+        <div id="past-moves-list" class="past-moves-list">
+          <!-- Filled by JS -->
+        </div>
+        <div class="screen-footer">
+          <button type="button" class="primary-button" data-nav="landing">Back to home</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p class="small">
+        MoveMate prototype · For CSCI 4620U – Human Computer Interaction · No real bookings or payments are made.
+      </p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
