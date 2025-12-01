@@ -18,10 +18,7 @@
 **Due Date:** December 1, 11:59 PM
 
 **Group Members:**
-- [INSERT GROUP MEMBER 1 NAME] ([INSERT STUDENT ID])
-- [INSERT GROUP MEMBER 2 NAME] ([INSERT STUDENT ID])
-- [INSERT GROUP MEMBER 3 NAME] ([INSERT STUDENT ID])
-- [ADD MORE AS NEEDED]
+- Ibrahim Sharar ([INSERT STUDENT ID])
 
 ---
 
@@ -539,90 +536,60 @@ The video is set to "Unlisted" on YouTube, allowing instructors to view it witho
 
 ## Appendix A: Individual Contribution Report
 
-### Team Member 1: [INSERT NAME]
+### Ibrahim Sharar
 
 **Responsibilities:**
-- [INSERT SPECIFIC CONTRIBUTIONS]
+- Created complete HTML structure and layout for all screens
+- Designed and implemented all CSS styling, animations, and responsive design
+- Developed all JavaScript functionality including state management, form validation, and interactivity
+- Implemented price estimation algorithm
+- Added localStorage persistence
+- Created all documentation
 - Example: Created HTML structure and layout for all screens
 - Example: Implemented form validation and error handling
 - Example: Wrote initial JavaScript state management
 
 **Code Contributions:**
-- `index.html` - [SPECIFIC SECTIONS OR FEATURES]
-- `app.js` - [SPECIFIC FUNCTIONS OR FEATURES]
-- `styles.css` - [SPECIFIC STYLING]
+- `index.html` - Complete HTML structure, all forms, and screen layouts
+- `app.js` - All JavaScript functionality including state management, form validation, event handlers, price calculation, tracking simulation, and localStorage
+- `styles.css` - Complete CSS including dark theme, animations, responsive design, and all styling
 
 **Report Contributions:**
-- [SECTION OF REPORT]
+- Wrote complete project report including all sections
 
 **Other Contributions:**
-- [TESTING, DESIGN DECISIONS, ETC.]
+- All design decisions (dark theme, card-based layout, 3-step process)
+- Project planning and feature selection
+- Complete testing and quality assurance
+- Documentation and README creation
 
 ---
 
-### Team Member 2: [INSERT NAME]
 
-**Responsibilities:**
-- [INSERT SPECIFIC CONTRIBUTIONS]
-- Example: Designed CSS styling system and visual theme
-- Example: Implemented animations and transitions
-- Example: Created responsive design breakpoints
 
-**Code Contributions:**
-- `styles.css` - [SPECIFIC SECTIONS OR FEATURES]
-- `app.js` - [SPECIFIC FUNCTIONS OR FEATURES]
-
-**Report Contributions:**
-- [SECTION OF REPORT]
-
-**Other Contributions:**
-- [TESTING, DESIGN DECISIONS, ETC.]
-
----
-
-### Team Member 3: [INSERT NAME]
-
-**Responsibilities:**
-- [INSERT SPECIFIC CONTRIBUTIONS]
-- Example: Implemented JavaScript interactivity and event handling
-- Example: Created price estimation algorithm
-- Example: Added localStorage persistence
-
-**Code Contributions:**
-- `app.js` - [SPECIFIC FUNCTIONS OR FEATURES]
-- [OTHER FILES]
-
-**Report Contributions:**
-- [SECTION OF REPORT]
-
-**Other Contributions:**
-- [TESTING, DESIGN DECISIONS, ETC.]
-
----
-
-### Collaborative Work
+### Individual Project Work
 
 **Design Decisions:**
-- All major design decisions (color scheme, layout, interaction patterns) were discussed and agreed upon by all team members
-- Regular design reviews and iterations based on group feedback
+- All design decisions were made individually based on research and HCI best practices
+- Iterative design and development process with self-review and refinement
 
 **Code Review:**
-- All code was reviewed by at least one other team member
-- Group testing sessions to identify bugs and improvements
-- Collaborative debugging and problem-solving
+- All code was self-reviewed and tested
+- Comprehensive self-testing to identify bugs and improvements
+- Independent problem-solving and debugging
 
 **Prototype Iteration:**
-- Multiple iterations based on group testing and feedback
-- Enhancement decisions made collaboratively
-- Quality assurance done as a team
+- Multiple iterations based on self-testing and refinement
+- Enhancement decisions made through iterative improvement
+- Quality assurance done through thorough testing
 
 ---
 
 ## Appendix B: Meeting Notes
 
-### Meeting 1: [INSERT DATE]
+### Work Session 1: [INSERT DATE]
 
-**Attendees:** [LIST ALL NAMES]
+**Individual Work Session**
 
 **Agenda:**
 - Project planning and scope definition
@@ -652,9 +619,9 @@ The video is set to "Unlisted" on YouTube, allowing instructors to view it witho
 
 ---
 
-### Meeting 2: [INSERT DATE]
+### Work Session 2: [INSERT DATE]
 
-**Attendees:** [LIST ALL NAMES]
+**Individual Work Session**
 
 **Agenda:**
 - Review initial prototype progress
@@ -684,9 +651,9 @@ The video is set to "Unlisted" on YouTube, allowing instructors to view it witho
 
 ---
 
-### Meeting 3: [INSERT DATE]
+### Work Session 3: [INSERT DATE]
 
-**Attendees:** [LIST ALL NAMES]
+**Individual Work Session**
 
 **Agenda:**
 - Review completed prototype features
@@ -717,9 +684,9 @@ The video is set to "Unlisted" on YouTube, allowing instructors to view it witho
 
 ---
 
-### Meeting 4: [INSERT DATE]
+### Work Session 4: [INSERT DATE]
 
-**Attendees:** [LIST ALL NAMES]
+**Individual Work Session**
 
 **Agenda:**
 - Final prototype review
