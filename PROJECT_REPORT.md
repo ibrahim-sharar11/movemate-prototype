@@ -26,13 +26,13 @@
 
 ## 1.1 Overview
 
-MoveMate is an interactive prototype for an on-demand movers booking platform designed to transform the stressful moving experience into a streamlined, transparent, and user-friendly process. The prototype addresses the common pain points in traditional moving services: lack of pricing transparency, difficulty comparing movers, uncertainty on moving day, and poor post-service feedback mechanisms.
+MoveMate is an interactive prototype for an on-demand movers booking platform that aims to make the stressful moving experience into a transparent and easy to use process. The prototype solves common problems in traditional moving services: unclear pricing, hard to compare movers, not knowing what's happening on moving day, and poor post-service feedback mechanisms.
 
 **Problem Statement:** Moving is one of life's most stressful experiences. Traditional moving services often involve hidden fees, unclear pricing, last-minute cancellations, and poor communication. Customers struggle to find reliable movers, compare options, and track their moves in real-time.
 
-**Core Value Proposition:** MoveMate provides instant price estimates with transparent breakdowns, allows users to compare trusted movers side-by-side, enables real-time tracking of their move, and facilitates post-move feedback to maintain service quality.
+**What MoveMate Does:** MoveMate provides instant price estimates with transparent breakdowns, allows users to compare trusted movers side-by-side, allows real-time tracking of their move, and lets users give feedback to maintain service quality.
 
-**Target Users:** Our primary target users are:
+**Who This Is For:** The main users are:
 - Urban residents planning local moves (apartments, condos)
 - Young professionals and students relocating within the city
 - Anyone seeking transparency, convenience, and reliability in moving services
@@ -44,7 +44,7 @@ MoveMate is an interactive prototype for an on-demand movers booking platform de
 
 #### Functionalities
 
-We developed a comprehensive prototype that demonstrates the complete customer journey from initial booking through post-move rating:
+I developed a prototype that shows the complete customer journey from initial booking through post-move rating:
 
 1. **Multi-Step Booking Flow** (Step 1 → Step 2 → Step 3)
    - **Move Details Collection:** Capture pickup/drop-off addresses, date, time window, home type, and access details
@@ -115,7 +115,7 @@ Our prototype features a modern, professional aesthetic designed to build trust 
 
 #### Interaction Design
 
-We focused on creating intuitive, efficient interactions that guide users naturally through the booking process:
+I focused on creating intuitive, efficient interactions that guide users naturally through the booking process:
 
 1. **Progressive Disclosure**
    - **3-Step Process:** Breaking complex booking into manageable steps
@@ -267,7 +267,7 @@ The prototype demonstrates a complete 3-step booking process:
 - **Reduces Anxiety:** Clear pricing reduces the stress of "how much will this cost?"
 - **User Control:** Allows users to adjust inventory to fit their budget
 
-**Implementation:** We display:
+**Implementation:** The prototype displays:
 - Price range (low–high estimate)
 - Component breakdown (base fee, distance, time/complexity)
 - Explanation of why the estimate was calculated
@@ -297,7 +297,7 @@ The prototype demonstrates a complete 3-step booking process:
 - **Confidence Building:** Seeing multiple options validates the service
 - **Market Dynamics:** Simulates real marketplace with different price points and quality levels
 
-**Design Choice:** We show:
+**Design Choice:** The prototype shows:
 - Rating (stars + job count)
 - On-time percentage
 - Tagline (value proposition)
@@ -317,7 +317,7 @@ This allows users to balance quality, reliability, and cost according to their p
 - **Trust Building:** Transparency about mover location and status builds confidence
 - **Peace of Mind:** Reduces need for phone calls and uncertainty
 
-**Implementation:** We created:
+**Implementation:** I created:
 - Visual timeline with 5 distinct stages
 - Animated status icons that activate sequentially
 - Current status pill indicator
@@ -339,7 +339,7 @@ Even as a prototype, this demonstrates the value of real-time communication.
 - **Professional Feel:** Dark themes feel more sophisticated
 - **Visual Interest:** Gradients and accent colors pop more on dark backgrounds
 
-**Implementation:** We chose:
+**Implementation:** I chose:
 - Deep navy/black backgrounds (#050816)
 - Purple/indigo accent colors (#6366f1)
 - Green for success states (#22c55e)
@@ -375,7 +375,7 @@ This creates a consistent, organized visual language.
 - **Professional Requirement:** Modern web applications must be responsive
 - **Demonstrates Competence:** Shows understanding of current web standards
 
-**Implementation:** We used:
+**Implementation:** I used:
 - CSS Grid with flexible columns
 - Media queries for breakpoints (900px, 640px)
 - Touch-friendly button sizes (44px minimum)
@@ -395,7 +395,7 @@ This creates a consistent, organized visual language.
 - **Reduces Overwhelm:** One thing at a time prevents information overload
 - **Smooth Transitions:** Animated transitions create polished feel
 
-**Implementation:** We created:
+**Implementation:** I created:
 - Smooth fade/slide transitions between screens
 - Clear visual hierarchy on each screen
 - Consistent navigation patterns
@@ -499,7 +499,7 @@ This feature proved valuable during demos and testing.
 - **Realistic Behavior:** Mimics real application behavior
 - **Appropriate Scope:** Right level of complexity for a prototype
 
-**Implementation:** We save:
+**Implementation:** The prototype saves:
 - Past moves array
 - Current booking state (if in progress)
 - Automatic recovery on page load
@@ -517,7 +517,7 @@ This adds polish without adding backend complexity.
 **Video Duration:** Approximately 5 minutes
 
 **Video Content:**
-The video demonstrates the complete MoveMate prototype, showcasing:
+The video shows the complete MoveMate prototype, showcasing:
 - Landing screen and value proposition
 - Full 3-step booking flow (Move Details → Inventory → Estimate)
 - Price estimation with breakdown
@@ -545,9 +545,6 @@ The video is set to "Unlisted" on YouTube, allowing instructors to view it witho
 - Implemented price estimation algorithm
 - Added localStorage persistence
 - Created all documentation
-- Example: Created HTML structure and layout for all screens
-- Example: Implemented form validation and error handling
-- Example: Wrote initial JavaScript state management
 
 **Code Contributions:**
 - `index.html` - Complete HTML structure, all forms, and screen layouts
@@ -657,7 +654,7 @@ The video is set to "Unlisted" on YouTube, allowing instructors to view it witho
 
 ## Conclusion
 
-The MoveMate prototype successfully demonstrates a comprehensive solution to the moving service problem. Through careful design decisions, thoughtful interaction patterns, and polished implementation, we've created a prototype that showcases both the functionality and the user experience of a modern on-demand moving platform.
+The MoveMate prototype successfully provides a solution to the moving service problem. Through design decisions and implementation, I created a prototype that showcases both the functionality and the user experience of a modern on-demand moving platform.
 
 Key strengths of the prototype include:
 - **Complete User Journey:** From booking to post-move rating
@@ -671,4 +668,5 @@ The prototype effectively communicates our design vision and demonstrates how Mo
 ---
 
 **End of Report**
+
 
