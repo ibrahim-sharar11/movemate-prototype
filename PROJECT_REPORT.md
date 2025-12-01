@@ -17,7 +17,7 @@
 
 **Due Date:** December 1, 11:59 PM
 
-**Group Members:**
+**Author:**
 - Ibrahim Sharar ([INSERT STUDENT ID])
 
 ---
