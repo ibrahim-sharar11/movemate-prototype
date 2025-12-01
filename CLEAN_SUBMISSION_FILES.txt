@@ -1,0 +1,43 @@
+FILES TO INCLUDE IN YOUR ZIP FOR SUBMISSION:
+=============================================
+
+REQUIRED FILES:
+---------------
+1. [YourSlackChannelName]_Report.pdf
+   - Your completed report converted to PDF
+   - Must include video link
+
+2. index.html
+   - Main HTML file
+
+3. styles.css
+   - All CSS styling
+
+4. app.js
+   - All JavaScript functionality
+
+5. README.md
+   - Technical documentation
+
+
+DO NOT INCLUDE:
+---------------
+- Other .md files (helpers/guides)
+- .git folder
+- GitHub-related files
+- Any markdown files except README.md
+
+
+TO CREATE ZIP:
+--------------
+1. Create a folder
+2. Copy the 5 files above into it
+3. Compress the folder
+4. Name it: [YourSlackChannelName].zip
+
+Example:
+--------
+If your Slack channel is "group-5":
+- ZIP name: group-5.zip
+- Report name: group-5_Report.pdf
+
