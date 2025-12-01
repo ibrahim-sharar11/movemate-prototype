@@ -1,166 +1,240 @@
-# 🎬 Video - What to Say (Simple Guide)
+# 🎬 Complete Video Script - Word for Word
 
-## ⏱️ 5 Minutes Total - Here's What to Do:
+## ⏱️ Total Duration: ~5 Minutes
 
----
-
-## **Opening (30 seconds)**
-
-**What to say:**
-> "Hi, this is a demonstration of MoveMate, my interactive prototype for an on-demand movers booking platform. MoveMate provides transparent pricing, easy mover comparison, and real-time tracking. Let me show you how it works."
-
-**What to do:**
-- Show the landing screen
-- Point out the key features listed
+**Use this script word-for-word or adapt it to your style!**
 
 ---
 
-## **Step 1: Show Booking Flow (2 minutes)**
+## 🎬 OPENING (0:00 - 0:30) - 30 seconds
 
-### **Move Details (Step 1) - 30 seconds**
+**[Show landing screen]**
 
-**What to say:**
-> "The booking process starts with collecting move details. Users enter their addresses, select a date and time, and specify their home type and access details."
+> "Hi, I'm Ibrahim Sharar, and this is a demonstration of MoveMate, my interactive prototype for an on-demand movers booking platform. MoveMate is designed to transform the stressful moving experience by providing transparent pricing, easy mover comparison, and real-time tracking. Let me show you the complete user journey from booking to post-move rating."
 
-**What to do:**
-- Click "Get Started"
-- Fill out the form:
-  - Pickup: "123 King St W, Toronto"
-  - Drop-off: "456 Queen St E, Toronto"
-  - Select a future date
-  - Time: "10-12 AM"
-  - Home type: "1 Bedroom"
-  - Access: "Stairs - 1 flight"
-- Click "Continue to inventory"
+**[Click "Get Started" button]**
 
 ---
 
-### **Inventory (Step 2) - 30 seconds**
+## 📝 STEP 1: MOVE DETAILS (0:30 - 1:15) - 45 seconds
 
-**What to say:**
-> "Step 2 uses interactive counters to estimate inventory. Users click plus or minus buttons - this is more intuitive than typing numbers."
+**[Show move details form]**
 
-**What to do:**
-- Click the + buttons on counters
-- Show how it updates in real-time
-- Maybe add some fragile items notes
-- Click "See price estimate"
+> "The booking process starts with Step 1, where users enter their move details. This form collects essential information: pickup and drop-off addresses, the move date, preferred time window, home type, and access details like whether there are stairs or an elevator."
 
----
+**[Start filling out form]**
 
-### **Price & Mover Selection (Step 3) - 1 minute**
+> "Notice the clean, intuitive form layout with helpful hints. All fields are required, and the form includes validation - you can't proceed with incomplete information. This prevents errors and guides users naturally through the process."
 
-**What to say:**
-> "Step 3 shows an instant price estimate with a transparent breakdown. Users can compare multiple movers side-by-side, seeing ratings, job counts, and individual prices. They can sort by best match, price, or rating."
+**[Fill in fields as you speak]**
+- Pickup: "123 King St W, Toronto"
+- Drop-off: "456 Queen St E, Toronto"
+- Date: Select a future date
+- Time: "10-12 AM"
+- Home type: "1 Bedroom"
+- Access: "Stairs - 1 flight"
 
-**What to do:**
-- Point to the price estimate and breakdown
-- Show the mover cards
-- Change the sort option (show it updates)
-- Click on a mover to select it
-- Click "Continue with selected mover"
+> "The date picker prevents selecting past dates, and all dropdowns provide clear options. Users can also add special notes about parking constraints or elevator bookings."
+
+**[Click "Continue to inventory"]**
 
 ---
 
-### **Confirmation - 30 seconds**
+## 📦 STEP 2: INVENTORY (1:15 - 1:45) - 30 seconds
 
-**What to say:**
-> "The summary shows everything clearly before confirming. Notice the celebration animation when booking is confirmed."
+**[Show inventory screen]**
 
-**What to do:**
-- Review the summary screen
-- Click "Confirm booking"
-- Point out the confetti animation (if visible)
+> "Step 2 uses interactive counters to estimate inventory volume. Instead of typing numbers, users simply click plus or minus buttons. This is much more intuitive, prevents invalid input like negative numbers or text, and provides immediate visual feedback."
 
----
+**[Demonstrate counter interactions]**
 
-## **Step 2: Tracking Feature (1 minute)**
+> "Watch as I click the plus button on the bedroom counter - you can see the number updates instantly with a smooth animation. The same works for living rooms, boxes, and heavy items."
 
-**What to say:**
-> "The tracking screen simulates real-time status updates. A visual timeline shows progress through five stages, giving users peace of mind on moving day. In a full implementation, this would show actual GPS tracking."
+**[Click + on bedroom counter, then + on boxes counter]**
 
-**What to do:**
-- Show the tracking screen
-- Point to the status timeline
-- Click "Advance status" button 2-3 times
-- Show how the status updates and animates
-- Point to the map placeholder
+> "Users can also add notes about fragile items in the text area below. This information helps movers prepare appropriately."
+
+**[Maybe type: "Glass desk and full-length mirror"]**
+
+> "The real-time visual feedback makes it easy to see what you're moving. Once satisfied, users proceed to see their price estimate."
+
+**[Click "See price estimate"]**
 
 ---
 
-## **Step 3: Rating System (30 seconds)**
+## 💰 STEP 3: PRICE ESTIMATE & MOVER SELECTION (1:45 - 2:45) - 60 seconds
 
-**What to say:**
-> "After the move is complete, users can rate their mover. This feedback helps maintain service quality and improves recommendations."
+**[Show estimate screen]**
 
-**What to do:**
-- Click "Mark move as complete"
-- Show the rating screen
-- Click on some stars
-- Maybe type a quick comment
-- Click "Submit rating"
+> "Step 3 is where MoveMate really shines. Users get an instant price estimate with a completely transparent breakdown. You can see the price range here - in this case, three hundred twenty to three hundred eighty dollars."
 
----
+**[Point to price estimate]**
 
-## **Step 4: Past Moves (30 seconds)**
+> "The breakdown shows exactly what you're paying for: a base fee, distance costs, and time complexity. But more importantly, the system explains why this estimate was calculated - building trust through transparency."
 
-**What to say:**
-> "All completed moves are saved in the user's history, showing details, prices, and ratings. This helps users track their moving history."
+**[Point to breakdown and reasons]**
 
-**What to do:**
-- Show the past moves screen (or click "Past Moves" from header)
-- Point out the move details shown
+> "Now, users can compare multiple movers side-by-side. Each mover card shows their rating, number of jobs completed, on-time percentage, and an individual price estimate based on their pricing model."
 
----
+**[Point to mover cards]**
 
-## **Closing (30 seconds)**
+> "Notice how each mover has different strengths - this one has the highest rating, this one offers the best price, and this one has the most experience. Users can sort by best match, lowest price, or highest rating to find what matters most to them."
 
-**What to say:**
-> "To summarize, MoveMate demonstrates transparent pricing with instant estimates, easy mover comparison, real-time tracking simulation, and a complete feedback system. The prototype is fully interactive and works on both desktop and mobile devices. Thank you for watching!"
+**[Change sort option to show it updates]**
+
+> "The selection is clear and visual - when I click on a mover, you can see it highlights with a border and shadow. This gives users confidence in their choice."
+
+**[Click on a mover to select it]**
+
+> "Once a mover is selected, users can proceed to review and confirm their booking."
+
+**[Click "Continue with selected mover"]**
 
 ---
 
-## 🎯 **Key Points to Mention:**
+## ✅ BOOKING CONFIRMATION (2:45 - 3:00) - 15 seconds
 
-✅ Transparent pricing  
-✅ Mover comparison  
-✅ Real-time tracking  
-✅ Complete user journey  
-✅ Responsive design  
+**[Show confirmation screen]**
 
----
+> "The booking summary shows everything clearly - all move details, the selected mover, and the final price estimate. Users can review everything before committing."
 
-## 💡 **Tips:**
+**[Scroll through summary]**
 
-- **Don't worry about perfect narration** - just describe what you're showing
-- **Speak naturally** - like you're explaining to a friend
-- **Show features, don't just tell** - demonstrate the interactions
-- **Keep moving** - don't linger too long on any screen
-- **If you mess up, pause and restart that section** - you can edit it later
+> "Notice the celebration animation when I confirm - this provides positive feedback and makes the booking feel like an accomplishment."
+
+**[Click "Confirm booking"]**
+
+> "Once confirmed, users move to the tracking screen where they can monitor their move in real-time."
 
 ---
 
-## 📋 **Before Recording:**
+## 🚚 TRACKING FEATURE (3:00 - 3:45) - 45 seconds
 
-- [ ] Prototype is working
+**[Show tracking screen]**
+
+> "The tracking screen simulates real-time status updates during the move. A visual timeline shows progress through five distinct stages: Scheduled, Mover on the way, Arrived, In progress, and Completed."
+
+**[Point to status timeline]**
+
+> "Each status update animates to show progress. This addresses the anxiety users feel on moving day - they always know where things stand. The current status is shown in this pill indicator at the top."
+
+**[Point to status pill]**
+
+> "In a full implementation, this area would show actual GPS tracking with a live map. For the prototype, we have a placeholder that demonstrates the concept."
+
+**[Point to map placeholder]**
+
+> "Let me use the demo control to simulate status updates. Watch as I advance through the stages - you can see each status icon activates with an animation, and the timeline fills in progressively."
+
+**[Click "Advance status" button 2-3 times]**
+
+> "This real-time communication is what users expect in modern on-demand services, and it builds trust through transparency."
+
+---
+
+## ⭐ RATING SYSTEM (3:45 - 4:15) - 30 seconds
+
+**[Show rating screen after completing move]**
+
+> "After the move is complete, users can rate their mover with a 5-star system. This feedback loop helps maintain service quality and improves recommendations for future users."
+
+**[Demonstrate rating]**
+
+> "Users simply click on the stars - notice the hover effect and the visual feedback. They can also add optional comments about their experience."
+
+**[Click on 4 stars, maybe type a comment]**
+
+> "Once submitted, the rating is saved and the move is added to the user's history."
+
+**[Click "Submit rating"]**
+
+---
+
+## 📋 PAST MOVES HISTORY (4:15 - 4:45) - 30 seconds
+
+**[Show past moves screen]**
+
+> "All completed moves are saved in the user's history. This screen shows move details, prices, movers used, and ratings given. This helps users track their moving history and builds trust in the platform."
+
+**[Point to past moves list]**
+
+> "The history persists across browser sessions using localStorage, so users can always refer back to their past moves."
+
+---
+
+## 🎯 SUMMARY & CLOSING (4:45 - 5:00) - 15 seconds
+
+**[Show landing screen or overview]**
+
+> "To summarize, MoveMate demonstrates several key features: transparent pricing with instant estimates and clear breakdowns, easy mover comparison with ratings and reviews, real-time tracking simulation for peace of mind, and a complete feedback system. The prototype is fully interactive, includes form validation, smooth animations, and works seamlessly on both desktop and mobile devices."
+
+> "Thank you for watching!"
+
+---
+
+## 📝 ALTERNATIVE SHORTER VERSION (If you're running long)
+
+### Quick Version:
+
+**Opening (20 sec):**
+> "This is MoveMate, a movers booking platform prototype. Let me show you how it works."
+
+**Booking Flow (2 min):**
+> "Users fill out move details, estimate inventory with interactive counters, and get instant price estimates. They can compare movers side-by-side and select the best option."
+
+**Tracking (45 sec):**
+> "The tracking screen shows real-time status updates through a visual timeline, giving users peace of mind on moving day."
+
+**Rating & History (45 sec):**
+> "After completion, users rate their mover and can view their past moves history."
+
+**Closing (10 sec):**
+> "MoveMate demonstrates transparent pricing, mover comparison, and real-time tracking. Thanks for watching!"
+
+---
+
+## 💡 TIPS FOR RECORDING:
+
+### Pacing:
+- **Speak clearly** but naturally
+- **Pause briefly** after important points
+- **Don't rush** - take your time
+- **If you mess up**, pause and restart that section
+
+### What to Show:
+- **Click buttons deliberately** (not too fast)
+- **Point to features** as you mention them
+- **Demonstrate interactions** (counters, sorting, etc.)
+- **Show animations** (status updates, confetti)
+
+### If You Forget:
+- **Just describe what you're showing** - that's enough!
+- **No need to memorize** - you can read this script
+- **Natural is better than perfect** - be yourself
+
+---
+
+## ✅ CHECKLIST BEFORE RECORDING:
+
+- [ ] Prototype is open and working
 - [ ] Browser window is sized nicely
 - [ ] Desktop is clean (no personal info)
-- [ ] Screen recorder is set up
-- [ ] Ready to go!
+- [ ] Screen recorder is ready (Loom/OBS/etc.)
+- [ ] Webcam is working (if showing face)
+- [ ] Script is ready (this file!)
+- [ ] Lighting is good (if showing face)
+- [ ] Ready to record!
 
 ---
 
-## ⏱️ **Timing Guide:**
+## 🎬 RECORDING COMMANDS:
 
-- Opening: 30 sec
-- Booking flow: 2 min
-- Tracking: 1 min
-- Rating: 30 sec
-- Past moves: 30 sec
-- Closing: 30 sec
-- **Total: ~5 minutes**
+**Start:** "Hi, I'm Ibrahim Sharar, and this is MoveMate..."
+
+**End:** "Thank you for watching!"
+
+**In between:** Just follow the script and demonstrate the features!
 
 ---
 
-**That's it! Just walk through your prototype and explain what you're showing. You've got this! 🎬**
-
+**You've got this! Just read the script and show your prototype! 🚀**
