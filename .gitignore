@@ -1,44 +1,6 @@
-# Operating System Files
+# Keep it simple - just ignore common system files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-Desktop.ini
-
-# Editor Files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.project
-.classpath
-.settings/
-
-# Temporary Files
-*.tmp
-*.temp
 *.log
-*.cache
 
-# Node modules (if you add any later)
-node_modules/
-package-lock.json
-yarn.lock
-
-# Build outputs (if any)
-dist/
-build/
-*.min.js
-*.min.css
-
-# Environment files
-.env
-.env.local
-
-# Keep all your project files - nothing is ignored!
-# Only system/temp files are ignored
-
+# Keep all project files visible
